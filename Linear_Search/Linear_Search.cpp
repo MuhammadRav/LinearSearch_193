@@ -47,7 +47,7 @@ void LinearSearch()
 			comparison++;
 			if (arr[i] == item)						// Langkah 5 a found
 			{
-				cout << "\n" << item << "found at position " << (i + 1) << endl;
+				cout << "\n" << item << " found at position " << (i + 1) << endl;
 				break;
 			}
 		}
@@ -62,3 +62,7 @@ void LinearSearch()
 }
 
 int main()
+{
+	input();
+	LinearSearch();
+}
