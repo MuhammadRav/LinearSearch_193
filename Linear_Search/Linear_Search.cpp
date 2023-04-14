@@ -20,4 +20,25 @@ void input()
 	// Accept Array elements
 	cout << "\n----------------------\n";
 	cout << " Enter array elements \n";
+	cout << "----------------------\n";
+	for (i = 0; i < n; i++)
+	{
+		cout << "<" << (i + 1) << "> ";
+		cin >> arr[i];
+	}
 }
+
+
+void LinearSearch()
+{
+	char ch;
+	int comparison;		// Number of Comparisons
+
+	do
+	{
+		// Accept the number to be searched
+		int item;
+	}
+}
+
+int main()
